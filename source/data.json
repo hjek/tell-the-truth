@@ -1,0 +1,340 @@
+{ "messages" :
+  [
+      "1. The United Nations Environment Programme’s sixth Global Environment Outlook (GEO-6) is the most comprehensive report on the global environment since 2012. It shows that the overall environmental situation globally is deteriorating and the window for action is closing.",
+      "2. GEO-6 shows that a healthy environment is both a prerequisite and a foundation for economic prosperity, human health and well-being. It addresses the main challenge of the 2030 Agenda for Sustainable Development: that no one should be left behind, and that all should live healthy, fulfilling lives for the full benefit of all, for both present and future generations.",
+      "3. Unsustainable production and consumption patterns and trends and inequality, when combined with increases in the use of resources that are driven by population growth, put at risk the healthy planet needed to attain sustainable development. Those trends are leading to a deterioration in planetary health at unprecedented rates, with increasingly serious consequences, in particular for poorer people and regions.",
+      "4. Furthermore, the world is not on track to achieve the environmental dimension of the Sustainable Development Goals or other internationally agreed environmental goals by 2030; nor is it on track to deliver long-term sustainability by 2050. Urgent action and strengthened international cooperation are urgently needed to reverse those negative trends and restore planetary and human health.",
+      "5. Past and present greenhouse gas emissions have already committed the world to an extended period of climate change with multiple and increasing environmental and society-wide risks.",
+      "6. Air pollution, currently the cause of between 6 and 7 million premature deaths per year, is projected to continue to have significant negative effects on health, and still cause between 4.5 million and 7 million premature deaths annually by mid-century.",
+      "7. Biodiversity loss from land-use change, habitat fragmentation, overexploitation and illegal wildlife trade, invasive species, pollution and climate change is driving a mass extinction of species, including critical ecosystem service providers, such as pollinators. That mass extinction compromises Earth’s ecological integrity and its capacity to meet human needs.",
+      "8. Marine plastic litter, including microplastics, occurs at all levels of the marine ecosystem and also appears in fisheries and shellfish at alarming levels and frequency. The long-term adverse impact of marine microplastics on the marine system is as yet unknown, with potential impact on human health through the consumption of fish and marine products. More research on the magnitude of the problem is still needed.",
+      "9. Land degradation is an increasing threat for human well-being and ecosystems, especially for those in rural areas who are most dependent on land for their productivity. Land degradation hotspots cover approximately 29 per cent of land globally, where some 3.2 billion people reside.",
+      "10. Natural resources, including fresh water and oceans, are too often overexploited, poorly managed and polluted. Approximately 1.4 million people die annually from preventable diseases, such as diarrhoea and intestinal parasites, that are associated with pathogen-polluted drinking water and inadequate sanitation.",
+      "11. Antibiotic-resistant infections are projected to become a major cause of death worldwide by 2050. Affordable, widely available wastewater treatment technologies to remove antibiotic residues could have huge benefits for all countries. Even greater efforts are needed to control mismanagement of antibacterial drugs at source, in both human and agricultural use.",
+      "12. The harmful impact of inappropriate use of pesticides, heavy metals, plastics and other substances are of significant concern, as such compounds appear in alarmingly high levels in our food supply. They primarily affect vulnerable members of society, such as infants, who are exposed to elevated levels of chemicals. The impact of neurotoxins and endocrine-disrupting chemicals is potentially multigenerational.",
+      "13. The social and economic costs of inaction often exceed the costs of action and are inequitably distributed, often being borne by the poorest and most vulnerable in society, including indigenous and local communities, particularly in developing countries.",
+      "14. Current environmental policy alone is not sufficient to address those challenges. Urgent Cross-sectoral policy action, through a whole-of-society approach, is needed to address the challenges of sustainable development.",
+      "15. Achieving internationally agreed environmental goals on pollution control, clean-up and efficiency improvements is crucial, yet alone is insufficient to achieve the Sustainable Development Goals. Transformative change is needed to enable and combine long-term strategic and integrated policymaking while building bottom-up social, cultural, institutional and technological innovation.",
+      "16. The key features of effective environmental policies for sustainable development include integrated objectives, science-based targets, economic instruments, regulations and robust international cooperation.",
+      "17. Transformative change that will enable us to achieve the Sustainable Development Goals and other internationally agreed targets includes a tripling of the current decarbonization rate as we head towards 2050, a 50 per cent increase in food production and the adoption of healthy and sustainable diets across all global regions.",
+      "18. The transformative changes needed to achieve sustainable development will be most successful when they are just, respect gender equality, recognize that there will be different impacts on men, women, children and the elderly, and take into account inherent societal risks.",
+      "19. The health co-benefits of reducing greenhouse gas emissions and air pollutants, including short-lived climate pollutants, can together outweigh the costs of mitigation, while achieving climate and air quality targets, increasing agricultural production and reducing biodiversity loss. Access to safe drinking water and sanitation can also provide environmental and health co-benefits.",
+      "20. Sustainable outcomes can best be achieved by combining objectives for resource-use efficiency, with ecosystem-based management and improved human health, drawing on scientific, indigenous and local knowledge.",
+      "21. Food, energy and transport systems, urban planning and chemical production are primary examples of systems of production and consumption that need innovative, effective and integrated policies.",
+      "22. Innovations are part of the solution, but can also create new risks and have a negative environmental impact. Where relevant scientific evidence is insufficient to inform decision-making, precautionary approaches can reduce threats of serious or irreversible damage.",
+      "23. Innovation in and deployment of technologies to reduce greenhouse gas emissions and increase resource efficiency can strengthen the economic performance of enterprises, municipalities, countries and other stakeholders.",
+      "24. Agreement on desired pathways for transformative change under conditions of uncertainty can be fostered by coalitions between Governments, businesses, researchers and civil society.",
+      "25. Sustainable development is more likely to be achieved through new modes of governance and adaptive management that give greater priority to the environmental dimension of the Sustainable Development Goals, while promoting gender equality and education for sustainable production and consumption.",
+      "26. These new sustainability governance models should also ensure adequate investment in knowledge systems such as data, indicators, assessments, policy evaluation and sharing platforms, and act on internationally agreed early signals from science and society to avoid unnecessary environmental impact and costs.",
+      "27. Data from satellites, combined with monitoring on the ground, can enable quicker actions across the world, in response to extreme weather events, for example. Widening access to data, information and knowledge and improving the infrastructure and capacity to harness that knowledge will enable those data to be put to the most effective use.",
+      "28. More investment in indicators that integrate different data sources and clearly delineate gender and inequality aspects will facilitate better-designed policy interventions and their evaluation.",
+      "29. Further developments are needed in environmental and natural resource accounting to ensure that environmental costs are internalized into economic decision-making for sustainability.",
+      "30. Harnessing the ongoing data and knowledge revolution and ensuring the authenticity and validity of those data to support sustainable development, combined with international cooperation, could transform capacities to address challenges and accelerate progress towards sustainable development.",
+      "31. Most important of all is the need to take bold, urgent, sustained, inclusive and transformative action that integrates environmental, economic and social activity to set society on the pathway to achieving the Sustainable Development Goals, multilateral environmental agreements, internationally agreed environmental goals and other science-based targets."
+  ],
+
+  "polluters":  
+  [
+      {
+	  "name" : "Abu Dhabi National Oil Co",
+	  "domain" : "www.adnoc.ae"
+      }, {
+	  "name" : "Adaro Energy PT",
+	  "domain" : "www.adaro.com"
+      }, {
+	  "name" : "Alliance Resource Partners LP",
+	  "domain" : "www.arlp.com"
+      }, {
+	  "name" : "Alpha Natural Resources Inc",
+	  "domain" : "www.alphanr.com"
+      }, {
+	  "name" : "Anadarko Petroleum Corp",
+	  "domain" : "www.anadarko.com"
+      }, {
+	  "name" : "Anglo American",
+	  "domain" : "www.angloamerican.com"
+      }, {
+	  "name" : "AP Moller (Maersk)",
+	  "domain" : "www.maersk.com"
+      }, {
+	  "name" : "Apache Corp",
+	  "domain" : "www.apachecorp.com"
+      }, {
+	  "name" : "Arch Coal Inc",
+	  "domain" : "www.archcoal.com"
+      }, {
+	  "name" : "Bahrain Petroleum Co (BAPCO)",
+	  "domain" : "www.bapco.net"
+      }, {
+	  "name" : "Banpu Public Co Ltd",
+	  "domain" : "www.banpu.com"
+      }, {
+	  "name" : "Berau Coal Energy Tbk PT",
+	  "domain" : "www.beraucoalenergy.co.id"
+      }, {
+	  "name" : "BHP Billiton Ltd",
+	  "domain" : "www.bhp.com"
+      }, {
+	  "name" : "BP PLC",
+	  "domain" : "www.bp.com"
+      }, {
+	  "name" : "Bukit Asam (Persero) Tbk PT",
+	  "domain" : "www.ptba.co.id"
+      }, {
+	  "name" : "Bumi Resources",
+	  "domain" : "www.bumiresources.com"
+      }, {
+	  "name" : "Canadian Natural Resources Ltd",
+	  "domain" : "www.cnrl.com"
+      }, {
+	  "name" : "Chesapeake Energy Corp",
+	  "domain" : "www.chk.com"
+      }, {
+	  "name" : "Chevron Corp",
+	  "domain" : "www.chevron.com"
+      }, {
+	  "name" : "China (Coal)",
+	  "domain" : ""
+      }, {
+	  "name" : "China National Offshore Oil Corp Ltd (CNOOC)",
+	  "domain" : "www.cnoocltd.com"
+      }, {
+	  "name" : "China National Petroleum Corp (CNPC)",
+	  "domain" : "www.cnpc.com.cn"
+      }, {
+	  "name" : "China Petrochemical Corp (Sinopec)",
+	  "domain" : "www.sinopec.com"
+      }, {
+	  "name" : "Cloud Peak Energy Inc",
+	  "domain" : ""
+      }, {
+	  "name" : "Coal India",
+	  "domain" : "www.coalindia.in"
+      }, {
+	  "name" : "ConocoPhillips",
+	  "domain" : "www.conocophillips.com"
+      }, {
+	  "name" : "Consol Energy Inc",
+	  "domain" : "www.consolenergy.com"
+      }, {
+	  "name" : "Czech Republic Coal",
+	  "domain" : "www.czechcoal.cz"
+      }, {
+	  "name" : "Devon Energy Corp",
+	  "domain" : "devonenergy.com"
+      }, {
+	  "name" : "Drummond Co",
+	  "domain" : "drummondco.com"
+      }, {
+	  "name" : "Ecopetrol SA",
+	  "domain" : "www.ecopetrol.com.co"
+      }, {
+	  "name" : "Egyptian General Petroleum Corp",
+	  "domain" : "www.egpc.com.eg"
+      }, {
+	  "name" : "Encana Corp",
+	  "domain" : "www.ovintiv.com"
+      }, {
+	  "name" : "Eni SPA",
+	  "domain" : "www.eni.com"
+      }, {
+	  "name" : "EOG Resources Inc",
+	  "domain" : "www.eogresources.com"
+      }, {
+	  "name" : "Exxaro Resources Ltd",
+	  "domain" : "www.exxaro.com"
+      }, {
+	  "name" : "ExxonMobil Corp",
+	  "domain" : "corporate.exxonmobil.com"
+      }, {
+	  "name" : "Gazprom OAO",
+	  "domain" : "www.gazprom.com"
+      }, {
+	  "name" : "Glencore PLC",
+	  "domain" : "www.glencore.com"
+      }, {
+	  "name" : "Hess Corp",
+	  "domain" : "www.hess.com"
+      }, {
+	  "name" : "Husky Energy Inc",
+	  "domain" : "huskyenergy.com"
+      }, {
+	  "name" : "Indika Energy Tbk PT",
+	  "domain" : "www.indikaenergy.co.id"
+      }, {
+	  "name" : "Inpex Corp",
+	  "domain" : "www.inpex.co.jp"
+      }, {
+	  "name" : "Iraq National Oil Co",
+	  "domain" : ""
+      }, {
+	  "name" : "Kazakhstan Coal",
+	  "domain" : ""
+      }, {
+	  "name" : "KazMunayGas",
+	  "domain" : "www.kmg.kz"
+      }, {
+	  "name" : "Kideco Jaya Agung PT",
+	  "domain" : "www.kideco.co.id"
+      }, {
+	  "name" : "Kiewit Mining Group",
+	  "domain" : "www.kiewit.com"
+      }, {
+	  "name" : "Kuwait Petroleum Corp",
+	  "domain" : "www.kpc.com.kw"
+      }, {
+	  "name" : "Lukoil OAO",
+	  "domain" : "www.lukoil.com"
+      }, {
+	  "name" : "Marathon Oil Corp",
+	  "domain" : "www.marathonoil.com"
+      }, {
+	  "name" : "Murphy Oil Corp",
+	  "domain" : "www.murphyoilcorp.com"
+      }, {
+	  "name" : "Murray Coal",
+	  "domain" : "murrayenergycorp.com"
+      }, {
+	  "name" : "NACCO Industries Inc",
+	  "domain" : "nacco.com"
+      }, {
+	  "name" : "National Iranian Oil Co",
+	  "domain" : "en.nioc.ir"
+      }, {
+	  "name" : "National Oil Corporation of Libya",
+	  "domain" : "noc-libya.com"
+      }, {
+	  "name" : "Natural Resource Partners LP",
+	  "domain" : "nrplp.com"
+      }, {
+	  "name" : "Nigerian National Petroleum Corp",
+	  "domain" : "nnpcgroup.com"
+      }, {
+	  "name" : "Noble Energy Inc",
+	  "domain" : "www.nblenergy.com"
+      }, {
+	  "name" : "North Korea Coal",
+	  "domain" : ""
+      }, {
+	  "name" : "Novatek OAO",
+	  "domain" : "www.novatek.ru"
+      }, {
+	  "name" : "Occidental Petroleum Corp",
+	  "domain" : "www.oxy.com"
+      }, {
+	  "name" : "Oil & Natural Gas Corp Ltd",
+	  "domain" : "www.ongcindia.com"
+      }, {
+	  "name" : "OMV AG",
+	  "domain" : "www.omv.com"
+      }, {
+	  "name" : "Peabody Energy Corp",
+	  "domain" : "www.peabodyenergy.com"
+      }, {
+	  "name" : "Petoro AS",
+	  "domain" : "www.petoro.no"
+      }, {
+	  "name" : "Petroleo Brasileiro SA (Petrobras)",
+	  "domain" : "petrobras.com.br"
+      }, {
+	  "name" : "Petroleos de Venezuela SA (PDVSA)",
+	  "domain" : "www.pdvsa.com"
+      }, {
+	  "name" : "Petroleos del Ecuador",
+	  "domain" : "eppetroecuador.ec"
+      }, {
+	  "name" : "Petroleos Mexicanos (Pemex)",
+	  "domain" : "www.pemex.com"
+      }, {
+	  "name" : "Petroleum Development Oman LLC",
+	  "domain" : "www.pdo.co.om"
+      }, {
+	  "name" : "Petroliam Nasional Berhad (Petronas)",
+	  "domain" : "www.petronas.com"
+      }, {
+	  "name" : "Poland Coal",
+	  "domain" : ""
+      }, {
+	  "name" : "PT Pertamina",
+	  "domain" : "pertamina.com"
+      }, {
+	  "name" : "Qatar Petroleum Corp",
+	  "domain" : "qp.com.qa"
+      }, {
+	  "name" : "Repsol SA",
+	  "domain" : "www.repsol.com"
+      }, {
+	  "name" : "Rio Tinto",
+	  "domain" : "www.riotinto.com"
+      }, {
+	  "name" : "Rosneft OAO",
+	  "domain" : "www.rosneft.com"
+      }, {
+	  "name" : "Royal Dutch Shell PLC",
+	  "domain" : "www.shell.com"
+      }, {
+	  "name" : "Russia (Coal)",
+	  "domain" : "www.ruscoal.com"
+      }, {
+	  "name" : "RWE AG",
+	  "domain" : "www.group.rwe"
+      }, {
+	  "name" : "Sasol Ltd",
+	  "domain" : "www.sasol.com"
+      }, {
+	  "name" : "Saudi Arabian Oil Company (Aramco)",
+	  "domain" : "www.saudiaramco.com"
+      }, {
+	  "name" : "Singareni Collieries Company",
+	  "domain" : "scclmines.com"
+      }, {
+	  "name" : "Sonangol EP",
+	  "domain" : "www.sonangol.co.ao"
+      }, {
+	  "name" : "Sonatrach SPA",
+	  "domain" : "sonatrach.com"
+      }, {
+	  "name" : "Southwestern Energy Co",
+	  "domain" : "www.swn.com"
+      }, {
+	  "name" : "Statoil ASA",
+	  "domain" : "www.equinor.com"
+      }, {
+	  "name" : "Suncor Energy Inc",
+	  "domain" : "www.suncor.com"
+      }, {
+	  "name" : "Surgutneftegas OAO",
+	  "domain" : "www.surgutneftegas.ru"
+      }, {
+	  "name" : "Syrian Petroleum Co",
+	  "domain" : "www.spc.com.sy"
+      }, {
+	  "name" : "Tatneft OAO",
+	  "domain" : "tatneft.ru"
+      }, {
+	  "name" : "Teck Resources Ltd",
+	  "domain" : "www.teck.com"
+      }, {
+	  "name" : "Total SA",
+	  "domain" : "www.total.com"
+      }, {
+	  "name" : "TurkmenGaz",
+	  "domain" : "www.oilgas.gov.tm"
+      }, {
+	  "name" : "Turkmennebit",
+	  "domain" : "www.oilgas.gov.tm"
+      }, {
+	  "name" : "Ukraine Coal",
+	  "domain" : ""
+      }, {
+	  "name" : "Vistra Energy",
+	  "domain" : "www.vistraenergy.com"
+      }, {
+	  "name" : "Westmoreland Coal Co",
+	  "domain" : "westmoreland.com"
+      }, {
+	  "name" : "YPF SA",
+	  "domain" : "www.ypf.com"
+      }
+  ]
+}

@@ -1,0 +1,130 @@
+body {
+    background: rgb(237,155,196);
+    color: black;
+    overflow: hidden;
+    width: 30em;
+}
+
+#logo {
+    width: 3rem;
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: rgb(152,98,151);
+    color: white;
+    padding: 0.3em;
+}
+
+fieldset {
+    background: rgb(247,238,106);
+    margin: 5px;
+    border: 5px solid rgb(152,98,151);
+    text-align: center;
+}
+
+div, summary {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    min-width: 10em;
+    text-align: center;
+    -moz-appearance: none;
+    padding: 5px;
+    border: 5px solid rgb(0,0,0);
+    font-weight: bold;
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+}
+
+input[type=checkbox]:checked {
+    background: rgb(20,170,55);
+    border: 5px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes glow {
+  from {
+    background: rgb(190,210,118);
+    border: 5px solid rgb(20,170,55);
+  }
+  to {
+    background: rgb(20,170,55);
+    border: 5px solid rgb(190,210,118);
+  }
+}
+
+input[type=checkbox]:after {
+    text-transform: uppercase;
+    content: "inactive";
+}
+
+input[type=checkbox]:checked:after {
+    text-transform: uppercase;
+    content: "active";
+}
+
+input[type=range] {
+    -moz-appearance: none;
+    width: 100%;
+    background: none;
+}
+
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    height: 0;
+    border: 2.5px dashed rgb(152,98,151);
+}
+
+select {
+    -moz-appearance: none;
+    border: 5px solid rgb(152,98,151);
+    font-weight: bold;
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    width: 100%;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 1em;
+    width: 1em;
+    border: 5px solid rgb(0,0,0);
+    background: rgb(255,255,255);
+    border-radius: 4em;
+}
+
+input[type=range]::-moz-range-thumb:hover,
+select:hover,
+input[type=checkbox]:hover {
+    background: rgb(56,96,170) !important;
+    color: rgb(255,255,255);
+    border: 5px solid rgb(117,208,241) !important;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#request {
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-inline: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    user-select: text;
+    color: rgb(200,0,130);
+    height: 5em;
+}

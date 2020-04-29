@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+  <h1>
+    <img id="logo" alt="Tell the Truth"/>
+  </h1>
+  <fieldset>
+    <legend>Tell the Truth.</legend>
+    <label for="enable">
+      <input id="enable" type="checkbox" />
+    </label>
+    <div>
+      Let polluters know the truth about the climate crisis.
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>tell whom?</legend>
+    <select id="target">
+      <optgroup label="testing">
+	<option value="localhost" title="localhost">myself</option>
+      </optgroup>
+      <optgroup id="suggestion" label="suggestion">
+      </optgroup>
+      <optgroup id="polluters" label="polluters">
+      </optgroup>
+      <!-- <option>s are added by popup.js -->
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>how quickly?</legend>
+    <!-- truths per minute -->
+    <input id="frequency"
+	   type=range
+	   min=30
+	   max=1200
+	   step=30
+	   />
+    <div>
+      <span id="frequencyOutput">0</span>
+      <span>
+	messages per minute.
+      </span>
+    </div>
+  </fieldset>
+  <fieldset>
+    <details>
+      <summary><span id="counter">0</span> message(s) sent</summary>
+      <pre id="request"></pre>
+    </details>
+  </fieldset>
+  <script src="./popup.js"></script>
+</body>
