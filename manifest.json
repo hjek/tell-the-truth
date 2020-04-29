@@ -6,18 +6,13 @@
 
     "description": "Tell polluters the truth about the climate crisis.",
 
-    "applications": {
-	"gecko": {
-	    "id": "truth@hjek.org"
-	}
-    },
-
     "icons": {
 	"16": "icons/active-16.png",
 	"32": "icons/active-32.png",
 	"48": "icons/active-48.png",
 	"64": "icons/active-64.png",
-	"96": "icons/active-96.png"
+	"96": "icons/active-96.png",
+	"128": "icons/active-128.png"
     },
 
     "browser_action": {
@@ -126,6 +121,12 @@
 
     "background": {
 	"scripts": ["source/background.js"]
+    },
+
+    "applications": {
+	"gecko": {
+	    "id": "truth@hjek.org"
+	}
     }
 
 }
