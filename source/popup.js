@@ -1,3 +1,6 @@
+// which browser are we running in?
+var api = (browser == undefined)?chrome:browser
+
 // default settings
 var settings = {
     enable: false,
@@ -32,7 +35,7 @@ var updatePopup = settings => {
 // load stored settings, if any
 Object.keys(settings).map(
     async setting => {
-	let stored = await browser.storage.local.get(setting)
+	let stored = await api.storage.local.get(setting)
 	let element = document.getElementById(setting)
 	// TODO: don't auto-start by loading stored enable state
 	if (stored[setting]) {
@@ -47,7 +50,7 @@ Object.keys(settings).map(
 // add event listeners to capture user interaction
 document.addEventListener('DOMContentLoaded', (event) => {
     // request data from background.js
-    browser.runtime.sendMessage({type: "data"})
+    api.runtime.sendMessage({type: "data"})
     Object.keys(settings).map(
 	key => {
 	    let element = document.getElementById(key)
@@ -56,16 +59,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		settings[key] = element[value(element)]
 		// send message with settings to background.js
 		let message = {type: "toggle", settings: settings}
-		browser.runtime.sendMessage(message)
+		api.runtime.sendMessage(message)
 		// save the selected setting
 		let setting = {}
 		setting[key] = element[value(element)]
-		browser.storage.local.set(setting)
+		api.storage.local.set(setting)
 		// update the icon
 		updatePopup(settings)
 	    }})})
 
-browser.runtime.onMessage.addListener(
+api.runtime.onMessage.addListener(
     message => {
 	switch(message.type){
 	case "request":

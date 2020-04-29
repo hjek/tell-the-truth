@@ -1,3 +1,6 @@
+// check which browser
+var api = (browser == undefined)?chrome:browser
+
 var state = {
     interval : null,
     counter : 0,
@@ -44,11 +47,11 @@ var toggle = settings => {
     let target = settings.target
     let frequency = settings.frequency
     if (frequency < 300) {
-	browser.browserAction.setBadgeBackgroundColor({color:"rgba(20,170,55,1)"})
+	api.browserAction.setBadgeBackgroundColor({color:"rgba(20,170,55,1)"})
     } else if (frequency < 600) {
-	browser.browserAction.setBadgeBackgroundColor({color:"rgba(255,193,30,1)"})
+	api.browserAction.setBadgeBackgroundColor({color:"rgba(255,193,30,1)"})
     } else {
-	browser.browserAction.setBadgeBackgroundColor({color:"rgba(220,79,0,1)"})
+	api.browserAction.setBadgeBackgroundColor({color:"rgba(220,79,0,1)"})
     }
     if (enable) {
 	if (state.interval) {
@@ -58,13 +61,13 @@ var toggle = settings => {
 	    // only reset the counter when starting afresh
 	    state.counter = 0
 	}
-	browser.browserAction.setIcon({path:"./icons/active-32.png"})
+	api.browserAction.setIcon({path:"./icons/active-32.png"})
 	state.interval = setInterval(tell, 60/frequency*1000, target)
     } else {
-	browser.browserAction.setIcon({path:"./icons/inactive-32.png"})
+	api.browserAction.setIcon({path:"./icons/inactive-32.png"})
 	if (state.interval) {
-	    browser.browserAction.setBadgeText({text:"off"})
-	    setTimeout(() => {browser.browserAction.setBadgeText({text:""})}, 1000)
+	    api.browserAction.setBadgeText({text:"off"})
+	    setTimeout(() => {api.browserAction.setBadgeText({text:""})}, 1000)
 	    clearInterval(state.interval)
 	    delete state.interval
 	}
@@ -75,7 +78,7 @@ var toggle = settings => {
 var tell = async target => {
     var URL = "http://" + target + "/" + urlify(random(state.messages))
     let badge = (Math.floor(state.counter/30) % 2 === 0)?"⧖":"⧗"
-    browser.browserAction.setBadgeText({text:badge})
+    api.browserAction.setBadgeText({text:badge})
     // don't send any cookies or referrer and don't cache anything
     var response = await fetch(URL, {
 	referrerPolicy: "no-referrer",
@@ -85,7 +88,7 @@ var tell = async target => {
     })
 	.then((response) => {
 	    state.counter += 1
-	    browser.runtime.sendMessage(
+	    api.runtime.sendMessage(
 		{type: "request", url: URL, counter: state.counter})
 	})
 }
@@ -96,13 +99,13 @@ var suggest = array => {
     return array[choice % array.length]
 }
 
-browser.runtime.onMessage.addListener(function(message){
+api.runtime.onMessage.addListener(function(message){
     switch(message.type){
     case "toggle":
 	toggle(message.settings)
 	break
     case "data":
-	browser.runtime.sendMessage(
+	api.runtime.sendMessage(
 	    {type: "data",
 	     polluters: state.polluters,
 	     suggestion: suggest(state.polluters)
