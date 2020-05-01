@@ -34,17 +34,20 @@ var updatePopup = settings => {
 // TODO: must be stored in background!
 // load stored settings, if any
 Object.keys(settings).map(
-    async setting => {
-	let stored = await browser.storage.local.get(setting)
-	let element = document.getElementById(setting)
-	// TODO: don't auto-start by loading stored enable state
-	if (stored[setting]) {
-	    settings[setting] = stored[setting]
-	}
-	element[value(element)] = settings[setting]
-	updatePopup(settings)
-	// update background.js according to settings loaded
-	// let message = {action: "toggle", settings: settings}
+    setting => {
+	browser.storage.local.get(
+	    setting,
+	    stored => {
+		let element = document.getElementById(setting)
+		// TODO: don't auto-start by loading stored enable state
+		if (stored[setting]) {
+		    settings[setting] = stored[setting]
+		}
+		element[value(element)] = settings[setting]
+		updatePopup(settings)
+		// update background.js according to settings loaded
+		// let message = {action: "toggle", settings: settings}
+	    })
     })
 
 // add event listeners to capture user interaction
